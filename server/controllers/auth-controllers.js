@@ -101,7 +101,7 @@ const forgotPassword = async (req, res) => {
       from: "jainshrey200349@gmail.com",
       to: email,
       subject: "Reset Password",
-      text: `http://localhost:5173/reset-password/${userExists._id}/${token}`,
+      text: `https://shreyjain04.github.io/BookStack/reset-password/${userExists._id}/${token}`,
     };
 
     transporter.sendMail(mailOptions, function (error, info) {
