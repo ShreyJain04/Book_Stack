@@ -11,7 +11,8 @@ const cors= require('cors')
 
 
 const corsOption={
-    origin:"http://localhost:5173",
+    // origin:"http://localhost:5173",
+    origin:"https://shreyjain04.github.io",
     methods:"GET, POST, PUT, PATCH, HEAD",
     credentials:true,
 }
